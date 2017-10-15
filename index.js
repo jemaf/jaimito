@@ -6,7 +6,7 @@
 
 const dns = require('dns');
 
-class Jaiminho {
+class Jaimito {
 
     /**
      * check e-mail validity
@@ -49,4 +49,4 @@ class Jaiminho {
 }
 
 
-module.exports = Jaiminho;
+module.exports = Jaimito;

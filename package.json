@@ -1,6 +1,6 @@
 {
-  "name": "jaiminho",
-  "version": "1.0.0",
+  "name": "jaimito",
+  "version": "0.1.0",
   "description": "e-mail validator based on mailgun's flanker library",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jemaf/jaiminho.git"
+    "url": "git+https://github.com/jemaf/jaimito.git"
   },
   "keywords": [
     "javascript",
@@ -18,9 +18,9 @@
   "author": "João Eduardo Montandon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jemaf/jaiminho/issues"
+    "url": "https://github.com/jemaf/jaimito/issues"
   },
-  "homepage": "https://github.com/jemaf/jaiminho#readme",
+  "homepage": "https://github.com/jemaf/jaimito#readme",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
