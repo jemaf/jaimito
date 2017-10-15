@@ -8,7 +8,7 @@ Jaimito is an email validator library written in JavaScript. The library validat
 
 Jaimito is available via npm
 
-```language=bash
+```bash
 $ npm install Jaimito
 ```
 
@@ -18,7 +18,7 @@ To validate your email, just call the `validate` function!!
 
 To validate an email, you must provide the email itself and the callback that will be executed after its validation.
 
-```language=javascript
+```javascript
 const Jaimito = require('jaimito');
 
 Jaiminho.validate('yourEmail@gmail.com', function(res) {
@@ -32,7 +32,7 @@ Jaiminho.validate('yourEmail@gmail.com', function(res) {
 
 Jaimito is also available for use with Promises:
 
-```language=javascript
+```javascript
 const Jaimito = require('jaimito');
 
 Jaimito
