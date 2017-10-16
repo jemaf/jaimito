@@ -31,18 +31,20 @@ class Jaimito {
               };
         
             if(!regex.test(email)) {
-                reject();
-                return callback(false);
+                resolve(false);
+                return callback(null, false);
             }
             else {
                 dns.resolve(emailDomain, 'MX', (err, records) => {
                     if(!err && records.length > 0) {
-                        resolve();
-                        return callback(true);
-                    }
-                    else {
-                        reject();
-                        return callback(false);
+                        resolve(true);
+                        return callback(null, true);
+                    } else if((err && err.code === "ENOTFOUND") || records.length === 0) {
+                        resolve(false);
+                        return callback(null, false);
+                    } else {
+                        reject(err);
+                        return callback(err);
                     }
                 });
             }

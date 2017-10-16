@@ -21,7 +21,11 @@ To validate an email, you must provide the email itself and the callback that wi
 ```javascript
 const Jaimito = require('jaimito');
 
-Jaiminho.validate('yourEmail@gmail.com', function(res) {
+Jaiminho.validate('yourEmail@gmail.com', function(err, res) {
+    if(err) {
+        // unexpected error
+    }
+
     if(res) {
         // valid email
     } else {
@@ -37,11 +41,15 @@ const Jaimito = require('jaimito');
 
 Jaimito
 .validate('yourEmail@gmail.com')
-.then(() => {
-    // valid email
+.then(res => {
+    if(res) {
+        // valid email
+    } else {
+        // invalid email
+    }
 })
-.catch(() => {
-    // invalid email
+.catch(err => {
+    // unexpected error
 });
 
 ```
