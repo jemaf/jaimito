@@ -10,7 +10,7 @@ Jaimito is an email validator library written in JavaScript. The library validat
 Jaimito is available via npm
 
 ```bash
-$ npm install Jaimito
+$ npm install jaimito
 ```
 
 ## Basic Usage
@@ -61,7 +61,7 @@ Jaimito
 >
 > -- Jaimito, el cartero
 
-[Jaimito](1) is an old postman character from [El Chavo del Ocho](2) show. The character is know for its lazyness and for avoiding any task.
+[Jaimito][1] is an old postman character from [El Chavo del Ocho][2] show. The character is know for its lazyness and for avoiding any task.
 
 [1]: https://en.wikipedia.org/wiki/List_of_El_Chavo_del_Ocho_characters#Jaimito.2C_el_cartero
 [2]: https://en.wikipedia.org/wiki/El_Chavo_del_Ocho
