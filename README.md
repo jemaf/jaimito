@@ -1,6 +1,7 @@
 # Jaimito
 
 [![Build Status](https://travis-ci.org/jemaf/jaimito.svg?branch=master)](https://travis-ci.org/jemaf/jaimito)
+[![Coverage Status](https://coveralls.io/repos/github/jemaf/jaimito/badge.svg?branch=master)](https://coveralls.io/github/jemaf/jaimito?branch=master)
 
 Jaimito is an email validator library written in JavaScript. The library validates the email by checking its hostname on Mail Exchange (MX) records.
 
