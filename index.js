@@ -39,7 +39,7 @@ class Jaimito {
                     if(!err && records.length > 0) {
                         resolve(true);
                         return callback(null, true);
-                    } else if((err && err.code === "ENOTFOUND") || records.length === 0) {
+                    } else if((err && err.code === "ENOTFOUND") || (records && records.length === 0)) {
                         resolve(false);
                         return callback(null, false);
                     } else {
