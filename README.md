@@ -15,7 +15,7 @@ $ npm install jaimito
 
 ## Basic Usage
 
-To validate your email, just call the `validate` function!!
+Using Jaimito is really simple: all you have to do is call the `validate` function.
 
 To validate an email, you must provide the email itself and the callback that will be executed after its validation.
 
@@ -56,6 +56,10 @@ Jaimito
 ```
 
 ## Why Jaimito?
+
+Different from traditional email validators, Jaimito also checks wether the provided hostname is real. For this, the email domain is verified on Mail Exchange records.
+
+## Who is Jaimito?
 
 > Es que quiero evitar la fatiga
 >
