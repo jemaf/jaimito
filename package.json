@@ -1,7 +1,7 @@
 {
   "name": "jaimito",
-  "version": "0.1.0",
-  "description": "e-mail validator based on mailgun's flanker library",
+  "version": "0.1.1",
+  "description": "E-mail validator library",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",

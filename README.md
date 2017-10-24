@@ -1,7 +1,9 @@
 # Jaimito
 
-[![Build Status](https://travis-ci.org/jemaf/jaimito.svg?branch=master)](https://travis-ci.org/jemaf/jaimito)
-[![Coverage Status](https://coveralls.io/repos/github/jemaf/jaimito/badge.svg?branch=master)](https://coveralls.io/github/jemaf/jaimito?branch=master)
+[![version][version-badge]][CHANGELOG]
+[![license][license-badge]][LICENSE]
+[![Build Status][travis-badge]][TRAVIS]
+[![Coverage Status][coveralls-badge]][COVERALLS]
 
 Jaimito is an email validator library written in JavaScript. The library validates the email by checking its hostname on Mail Exchange (MX) records.
 
@@ -69,3 +71,12 @@ Different from traditional email validators, Jaimito also checks wether the prov
 
 [1]: https://en.wikipedia.org/wiki/List_of_El_Chavo_del_Ocho_characters#Jaimito.2C_el_cartero
 [2]: https://en.wikipedia.org/wiki/El_Chavo_del_Ocho
+
+[LICENSE]: ./LICENSE
+[CHANGELOG]: ./CHANGELOG.md
+[TRAVIS]: https://travis-ci.org/jemaf/jaimito
+[COVERALLS]: https://coveralls.io/github/jemaf/jaimito?branch=master
+[version-badge]: https://img.shields.io/npm/v/jaimito.svg
+[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+[travis-badge]: https://img.shields.io/travis/jemaf/jaimito/master.svg
+[coveralls-badge]: https://img.shields.io/coveralls/github/jemaf/jaimito/master.svg
