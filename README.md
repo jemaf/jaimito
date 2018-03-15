@@ -24,7 +24,7 @@ To validate an email, you must provide the email itself and the callback that wi
 ```javascript
 const Jaimito = require('jaimito');
 
-Jaiminho.validate('yourEmail@gmail.com', function(err, res) {
+Jaimito.validate('yourEmail@gmail.com', function(err, res) {
     if(err) {
         // unexpected error
     }
